@@ -1,1 +1,43 @@
+# .gitignore
+# "Legal Clarity and Collateral-Setting Behavior: Evidence from Real-Estate Registries"
+
+# ── Raw data (not redistributable) ─────────────────────────────────────────
+data/登記統計不動産個数.csv
+data/マクロ指標.csv
+data/cdab_1_.csv
+data/*.csv          # all derived CSVs are in results/; raw data not committed
+
+# ── Outputs ────────────────────────────────────────────────────────────────
+results/figures/*.png
+results/figures/*.pdf
+# CSV results ARE committed for reproducibility
+# (see results/README.md for file descriptions)
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter ────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
 
