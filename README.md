@@ -11,7 +11,7 @@ JSPS KAKENHI Grant Number 23K01404
 This repository contains the replication code for:
 
 > Arai, K. (2026). "Legal Clarity and Collateral-Setting Behavior: Evidence from
-> Real-Estate Registries." *European Journal of Law and Economics* (under review).
+> Real-Estate Registries." (under review).
 
 ### Research question
 
