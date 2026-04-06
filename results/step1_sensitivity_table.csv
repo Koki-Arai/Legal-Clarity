@@ -1,0 +1,9 @@
+﻿model,coef,se,pvalue,stars,N,note
+A  Standard TWFE,-0.5099401769235162,0.027615365252702917,0.0,***,45400,"reference, biased"
+"B  Detrended TWFE (2-step, current)",-0.08614235616218965,0.015762470522107795,4.652835761120855e-08,***,45400,current main spec
+B1 Unit linear trend TWFE (1-step),-0.08728480738123669,0.01581046000406694,3.3952077593824015e-08,***,45400,"proposed, reviewer response"
+B2 Unit quadratic trend TWFE,0.06490207150137528,0.018079187922808864,0.00033118827543709983,***,45400,over-corrects (sign reversal)
+B3 Category trend TWFE,-0.08728480738123665,0.01577561694228317,3.1674174172380276e-08,***,45400,intermediate
+B4 B1 + macro controls,-0.08728480738123662,0.01581046000406694,3.3952077593824015e-08,***,45400,"lending_rate, CPI, Nikkei"
+B6a mortgage only,-0.1425724430569212,0.014409019317011168,0.0,***,,high interest-rate sensitivity
+B6b root_mortgage only,-0.031997171705552024,0.021577563931688182,0.13811281825214516,,,low interest-rate sensitivity

@@ -1,0 +1,5 @@
+﻿variable,group,pre_mean,post_mean,pct_change,ln_pre,ln_post,ln_change
+Ordinary mortgage (抵当権設定),Treatment,2733.9,2421.6,-11.42,7.3212,7.1295,-0.1918
+Blanket mortgage (根抵当権設定),Treatment,727.4,635.4,-12.65,6.1347,5.8425,-0.2922
+Sale transfer (売買),Control,4153.1,4661.1,12.23,7.9512,8.0465,0.0953
+Inheritance transfer (相続),Control,6559.2,9793.6,49.31,8.6144,9.0494,0.435
