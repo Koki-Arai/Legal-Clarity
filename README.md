@@ -88,7 +88,7 @@ See [`data/README.md`](data/README.md) for exact URLs and format details.
 |------|--------|
 | `data/登記統計不動産個数.csv` | Ministry of Justice / e-Stat |
 | `data/マクロ指標.csv` | BoJ, MIC, TSE (aggregated) |
-| `data/cdab_1_.csv` | Bank of Japan (Loan Market Survey) |
+| `data/貸出債券市場取引動向（全銀協）_.csv` | Bank of Japan (Loan Market Survey) |
 
 ### 3. Run the pipeline in order
 
