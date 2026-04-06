@@ -1,0 +1,32 @@
+# requirements.txt
+# "Legal Clarity and Collateral-Setting Behavior: Evidence from Real-Estate Registries"
+# Koki Arai — JSPS KAKENHI 23K01404
+#
+# Tested on Python 3.10 / 3.11
+# Install: pip install -r requirements.txt
+
+# Core data handling
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Panel econometrics (TWFE, FE-OLS)
+linearmodels>=5.3
+
+# Callaway–Sant'Anna (2021) doubly-robust DiD
+csdid>=0.1.4
+drdid>=0.1.0
+
+# Rambachan–Roth sensitivity (optional: for 03_robustness.py RR section)
+# honestdid is a Stata/R package; the Python implementation is manual.
+# No additional package required beyond numpy/scipy.
+
+# Statistics / inference
+statsmodels>=0.14.0
+
+# Figures
+matplotlib>=3.7.0
+
+# Utilities
+python-dateutil>=2.8.2
+tqdm>=4.65.0

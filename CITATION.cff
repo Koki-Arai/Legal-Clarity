@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "Replication code: Legal Clarity and Collateral-Setting Behavior"
+authors:
+  - family-names: Arai
+    given-names: Koki
+    affiliation: Kyoritsu Women's University
+    orcid: ""
+version: "1.0.0"
+date-released: "2026-04-06"
+license: MIT
+repository-code: "https://github.com/Koki-Arai/legal-clarity-collateral"
+keywords:
+  - law and economics
+  - collateral markets
+  - property registration
+  - difference-in-differences
+  - Japan
+  - Supreme Court
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Arai
+      given-names: Koki
+  title: "Legal Clarity and Collateral-Setting Behavior: Evidence from Real-Estate Registries"
+  journal: "European Journal of Law and Economics"
+  year: 2026
+  notes: "Under review"
